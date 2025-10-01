@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background-image: url("path/to/your/image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
     <title>Home</title>
   </head>
   <body>
@@ -27,23 +36,54 @@
       </nav>
     </div>
 
-    <div></div>
     <br />
-    <div class="flex justify-center gap-4">
-      <div class="box-content size-40 border-2 p-4 rounded-xl">
-        <p class="font-serif text-2xl">Learn More About Origami</p>
-        <div>
-          <a href="about.html">
-            <button class="border-2 p-1">About</button>
-          </a>
+    <div>
+      <div
+        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out"
+      >
+        <img
+          class="w-full h-40 object-cover rounded-t-lg"
+          alt="Card Image"
+          src="https://via.placeholder.com/150"
+        />
+        <div class="p-4">
+          <h2 class="text-xl font-semibold">Beautiful Card</h2>
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
+            ante sit amet tellus ornare tincidunt.
+          </p>
+          <div class="flex justify-between items-center mt-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
 
-      <div class="box-content size-40 border-2 p-4 rounded-xl">
-        <p class="font-serif text-2xl">Different Origami Crafts You Can Make</p>
-        <a href="tutorials.html">
-          <button class="border-2 p-1">Step-by-step</button>
-        </a>
+      <div
+        class="w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out"
+      >
+        <img
+          class="w-full h-40 object-cover rounded-t-lg"
+          alt="Card Image"
+          src="https://via.placeholder.com/150"
+        />
+        <div class="p-4">
+          <h2 class="text-xl font-semibold">Beautiful Card</h2>
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
+            ante sit amet tellus ornare tincidunt.
+          </p>
+          <div class="flex justify-between items-center mt-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
